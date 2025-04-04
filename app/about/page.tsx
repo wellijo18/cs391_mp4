@@ -18,7 +18,7 @@ export default function About() {
                 <div style={{display: "flex", justifyContent: "center", alignItems: "center", marginTop: "2rem"}}>
                     <Image src={pokeball} alt="Pokéball picture" width={250} />
                     <p style={{width: "25%", marginLeft: "2rem"}}>
-                        Welcome Trainer! If you love all things Pokémon like me, especially collecting cards, you're going to love the ability to find
+                        Welcome Trainer! If you love all things Pokémon like me, especially collecting cards, youre going to love the ability to find
                         every card that has been made for the specific pokemon you search. Make sure when you input their name that it is spelled correctly.
                         To see my favorite pokemon click on Home and search for Exploud, Garchomp, and Reshiram!
                     </p>
