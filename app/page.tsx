@@ -35,7 +35,7 @@ export default function PokemonCardSearch() {
                     case 502:
                     case 503:
                     case 504: throw new Error("Server error. The API is currently having issues");
-                    default: throw new Error(`Unexpected error: ${response.statusText}`);
+                    default: throw new Error(`Unexpected error`);
                 }
             }
             const data = await response.json();
